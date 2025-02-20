@@ -13,7 +13,12 @@ public class G19 {
 
     	CaesarCipher cipher = new CaesarCipher(4);
 
+		System.out.println(cipher.toString());
+
+		System.out.println("\nhello word!");
     	System.out.println(cipher.encrypt("hello world!"));
+
+		System.out.println("\nukq zez ep!");
     	System.out.println(cipher.decrypt("ukq zez ep!"));
 
     	//Create a new cipher using the shifter(#) method
